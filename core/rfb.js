@@ -2379,7 +2379,7 @@ export default class RFB extends EventTargetMixin {
                         textData = textData.slice(0, -1);
                     }
 
-                    textData = textData.replace("\r\n", "\n");
+                    textData = textData.replaceAll("\r\n", "\n");
 
                     this._triggerClipboardEvent(textData);
 

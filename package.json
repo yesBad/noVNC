@@ -1,6 +1,6 @@
 {
   "name": "@novnc/novnc",
-  "version": "yesVNC-0.1",
+  "version": "yesVNC-0.2",
   "description": "An HTML5 VNC client",
   "browser": "lib/rfb",
   "directories": {
@@ -44,6 +44,7 @@
     "commander": "latest",
     "eslint": "latest",
     "fs-extra": "latest",
+    "globals": "latest",
     "jsdom": "latest",
     "karma": "latest",
     "karma-mocha": "latest",
